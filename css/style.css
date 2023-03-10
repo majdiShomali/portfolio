@@ -1,0 +1,135 @@
+body{
+    background: #2c3e507d;
+  
+}
+#logo0{
+    color: #1abc9c;   
+}
+#nav00{
+    box-shadow: 2px 2px 0px 1px rgb(49, 79, 96);
+}
+#About0{
+    color: #fcfffe;    
+}
+#Projects0{
+    color: #fcfffe;      
+}
+#Skills0{
+    color: #fcfffe;    
+}
+#logo0:hover{
+    color: #1abc9c; 
+}
+#About0:hover{
+    color: #1abc9c;   
+}
+#Projects0:hover{
+    color: #1abc9c;       
+}
+#Skills0:hover{
+    color: #1abc9c;   
+}
+#copy00:hover{
+    color: #1abc9c;     
+}
+#linkedin0{
+    width: 20px;
+    height: 20px;
+}
+#facebook0{
+    width: 20px;
+    height: 20px;
+}
+
+
+.border0icon:hover{
+   border: #1abc9c solid 1px;
+   background: #2c3e50;
+}
+
+
+
+   
+.container00{
+    background: linear-gradient(#2c3e5083,#2c3e50);
+    height: 34rem;
+    width: 100%;
+    position: relative;
+    /* border-radius: 5%; */
+    }
+    .container00::after{
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: #2c3e507e;
+        position: absolute;
+        right: 0;
+        top: 0;
+       clip-path: circle(40% at right);
+       /* border-radius: 5%; */
+      z-index: 0;
+    }
+    .content0{
+        display: flex;
+        height: 100%;
+        width: 80%;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+    }
+    .image00{
+        z-index: 100;
+    }
+    .container00 .text0{
+    color: white;
+    width: 40%;
+    }
+    .container00 .text0 h2{
+       text-transform: uppercase;
+        }
+
+        .container00 .image00{
+            mix-blend-mode: multiply;
+        }
+        .container00 .image00 img{
+            width: 20rem ;
+            border-radius: 20%;
+           
+             }   
+
+
+
+             @media (min-width:950px) and (max-width:1150px){
+     
+               
+                .container00 .image00 img{
+                    width: 15rem ;
+                     }   
+               }
+
+
+               @media (min-width:100px) and (max-width:949px){
+                .container00::after{
+            
+                   
+                    bottom: 0;
+                   clip-path: circle(60% at bottom);
+                  
+                }
+                .content0{
+
+                flex-direction: column;
+                justify-content: space-around;
+               }
+            
+            
+                .container00 .image00 img{
+                    width: 10rem ;
+                    border-radius: 20%;
+                     }  
+                     .container01{
+                height: 100vh;
+            }
+
+
+            }
