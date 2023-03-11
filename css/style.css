@@ -32,11 +32,15 @@ body{
 #copy00:hover{
     color: #1abc9c;     
 }
+#github0{
+    width: 20px;
+    height: 20px;
+}
 #linkedin0{
     width: 20px;
     height: 20px;
 }
-#facebook0{
+#mail0{
     width: 20px;
     height: 20px;
 }
@@ -56,6 +60,7 @@ body{
     width: 100%;
     position: relative;
     /* border-radius: 5%; */
+   
     }
     .container00::after{
         content: "";
@@ -86,7 +91,14 @@ body{
     }
     .container00 .text0 h2{
        text-transform: uppercase;
+       font-size: 5rem;
+       color:#1abc9c; ;
         }
+
+        .container00 .text0 p{
+            
+            font-size: 2rem;
+             }  
 
         .container00 .image00{
             mix-blend-mode: multiply;
@@ -130,6 +142,18 @@ body{
                      .container01{
                 height: 100vh;
             }
+
+
+            .container00 .text0 h2{
+                text-transform: uppercase;
+                font-size: 2rem;
+                 }
+         
+                 .container00 .text0 p{
+                     
+                     font-size: 1rem;
+                      } 
+
 
 
             }

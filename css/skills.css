@@ -32,15 +32,15 @@ body{
 #copy00:hover{
     color: #1abc9c;     
 }
+#github0{
+    width: 20px;
+    height: 20px;
+}
 #linkedin0{
     width: 20px;
     height: 20px;
 }
-#facebook0{
-    width: 20px;
-    height: 20px;
-}
-#twitter0{
+#mail0{
     width: 20px;
     height: 20px;
 }

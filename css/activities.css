@@ -32,15 +32,15 @@ body{
 #copy00:hover{
     color: #1abc9c;     
 }
+#github0{
+    width: 20px;
+    height: 20px;
+}
 #linkedin0{
     width: 20px;
     height: 20px;
 }
-#facebook0{
-    width: 20px;
-    height: 20px;
-}
-#twitter0{
+#mail0{
     width: 20px;
     height: 20px;
 }
@@ -66,13 +66,17 @@ body{
         #container000about{
             display: flex;
             flex-direction: column;
-            
+            height: 30rem;
         }  
 
         #container000about div{
          margin: 2rem;
         }  
+        .scout0{
+            margin: 5rem 0;
+           width: 20rem;
 
+        }
        }
        @media (min-width:1001px){
         .container000{
