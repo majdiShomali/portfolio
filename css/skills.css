@@ -1,5 +1,5 @@
 body{
-    background: #2c3e507d;
+    background: #7f95ab7d;
   
 }
 #logo0{
@@ -49,7 +49,7 @@ body{
 .contentdiv00{
     position: relative;
     min-height: 30rem;
-    background: linear-gradient(#2c3e5083,#2c3e50); 
+    background: linear-gradient(#607c9783,#3d52687d);
 }
 
 
@@ -79,6 +79,7 @@ body{
         margin: auto;
         border-radius: 10rem;
         box-shadow: 2px 2px 0px 1px black;
+        border: 1px solid black;
         }
         #soft_image0{
         position: absolute;  
@@ -114,6 +115,7 @@ body{
         justify-content: center;
         overflow: hidden;
         border: 1px solid black;
+        box-shadow: 2xp 2px 0px 1px rgb(246, 243, 243);
         }
         
         .circle00:hover{

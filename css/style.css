@@ -1,6 +1,9 @@
 body{
-    background: #2c3e507d;
-  
+    background: #7f95ab7d;
+}
+
+.main000{
+    height: 100vh;
 }
 #logo0{
     color: #1abc9c;   
@@ -55,8 +58,8 @@ body{
 
    
 .container00{
-    background: linear-gradient(#2c3e5083,#2c3e50);
-    height: 34rem;
+    background: linear-gradient(#4d6f8e83,#425c787d);
+    height: 40rem;
     width: 100%;
     position: relative;
     /* border-radius: 5%; */
@@ -66,7 +69,7 @@ body{
         content: "";
         width: 100%;
         height: 100%;
-        background: #2c3e507e;
+        background: #59718a7d;
         position: absolute;
         right: 0;
         top: 0;
@@ -92,11 +95,11 @@ body{
     .container00 .text0 h2{
        text-transform: uppercase;
        font-size: 5rem;
-       color:#1abc9c; ;
+       color:#2c3e50; ;
         }
 
         .container00 .text0 p{
-            
+            color: #2c3e50;
             font-size: 2rem;
              }  
 
