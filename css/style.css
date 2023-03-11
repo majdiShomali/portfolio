@@ -1,5 +1,6 @@
 body{
     background: #7f95ab7d;
+    height: 100vh;
 }
 
 .main000{
@@ -35,18 +36,7 @@ body{
 #copy00:hover{
     color: #1abc9c;     
 }
-#github0{
-    width: 20px;
-    height: 20px;
-}
-#linkedin0{
-    width: 20px;
-    height: 20px;
-}
-#mail0{
-    width: 20px;
-    height: 20px;
-}
+
 
 
 .border0icon:hover{
@@ -59,7 +49,7 @@ body{
    
 .container00{
     background: linear-gradient(#4d6f8e83,#425c787d);
-    height: 40rem;
+    height: 39rem;
     width: 100%;
     position: relative;
     /* border-radius: 5%; */
@@ -96,6 +86,7 @@ body{
        text-transform: uppercase;
        font-size: 5rem;
        color:#2c3e50; ;
+       border-bottom: 1px solid #2c3e50;
         }
 
         .container00 .text0 p{
@@ -143,7 +134,7 @@ body{
                     border-radius: 20%;
                      }  
                      .container01{
-                height: 100vh;
+              
             }
 
 

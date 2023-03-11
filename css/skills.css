@@ -1,6 +1,6 @@
 body{
     background: #7f95ab7d;
-  
+  height: 100vh;
 }
 #logo0{
     color: #fcfffe;   
@@ -32,18 +32,7 @@ body{
 #copy00:hover{
     color: #1abc9c;     
 }
-#github0{
-    width: 20px;
-    height: 20px;
-}
-#linkedin0{
-    width: 20px;
-    height: 20px;
-}
-#mail0{
-    width: 20px;
-    height: 20px;
-}
+
 
 
 .contentdiv00{
@@ -57,7 +46,7 @@ body{
 
    
 .container000{
-    
+    height: 35rem;
     width: 100%;
     }
 
@@ -78,7 +67,7 @@ body{
         overflow: hidden;
         margin: auto;
         border-radius: 10rem;
-        box-shadow: 2px 2px 0px 1px black;
+        /* box-shadow: 2px 2px 0px 1px black; */
         border: 1px solid black;
         }
         #soft_image0{
@@ -121,6 +110,10 @@ body{
         .circle00:hover{
           border: 1px solid #1abc9c;
           box-shadow: 1px 1px 0px 0px #040404;
+
+          rotate: 360deg;
+          transition: rotate 5s;
+
         }
         
         
@@ -160,9 +153,9 @@ body{
 
        }
        @media (min-width:1001px){
-        .container000{
-        height: 32rem;
-        }
+        /* .container000{
+        height: 33rem;
+        } */
         .container_soft{
             height: 30rem;
             width: 30rem;
