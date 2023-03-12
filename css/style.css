@@ -37,14 +37,21 @@ body{
     color: #1abc9c;     
 }
 
-
+#logo_image{
+    border: 2px solid #1abc9c;
+}
 
 .border0icon:hover{
    border: #1abc9c solid 1px;
    background: #2c3e50;
 }
 
-
+#logo_image{
+    border-radius: 50%;
+}
+#logo_image:hover{
+    border: 2px solid #1abc9c;
+}
 
    
 .container00{
