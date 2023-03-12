@@ -14,7 +14,7 @@
 -----
 
 ## TOOLS 
-- HTML, CSS and Bootstrap
+- HTML,  CSS and Bootstrap
 
 ### wireFrame and mockup
 - [Figma ](https://www.figma.com/file/9jTVX1yM5bhue2UOfxdKdE/Untitled?node-id=0%3A1&t=itD2fjkmhjxymMcZ-0)
