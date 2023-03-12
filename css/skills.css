@@ -145,6 +145,45 @@ body{
         }
         
 
+
+
+
+        .container_soft1:hover{
+    box-shadow: 0px 2px 0px 4px rgb(24, 72, 102);
+            transform: rotate3d(1, 0, 0, 30deg);
+            transition: transform 1s;
+          
+          
+          transition-timing-function:cubic-bezier(.97,.02,.06,.96);
+                
+        }
+
+
+        .container_soft2:hover{
+            box-shadow: 0px 2px 0px 4px rgb(24, 72, 102);
+            transform: rotate3d(1, 0, 0, 30deg);
+            transition: transform 1s;
+          
+          
+          transition-timing-function:cubic-bezier(.97,.02,.06,.96);
+                
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* --------------------------------------- */
 
     @media (min-width:100px) and (max-width:1000px){
