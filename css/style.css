@@ -1,5 +1,5 @@
 body{
-    background: #7f95ab7d;
+    background: linear-gradient(#2c3e5083,#2c3e50);
     height: 100vh;
 }
 
@@ -48,7 +48,7 @@ body{
 
    
 .container00{
-    background: linear-gradient(#4d6f8e83,#425c787d);
+    /* background: linear-gradient(#4d6f8e83,#425c787d); */
     height: 39rem;
     width: 100%;
     position: relative;
@@ -102,6 +102,38 @@ body{
             border-radius: 20%;
            
              }   
+
+/* ------------------------------------------------ */
+             p {
+                border-right: solid 3px rgba(0,255,0,.75);
+                white-space: nowrap;
+                overflow: hidden;    
+                font-family: 'Source Code Pro', monospace;  
+                font-size: 28px;
+                color: rgba(255,255,255,.70);
+              }
+              
+              /* Animation */
+              p {
+                animation: animated-text 3s steps(29,end) 0s 1 normal both,
+                           animated-cursor 600ms steps(29,end) infinite;
+              }
+              
+              /* text animation */
+              
+              @keyframes animated-text{
+                from{width: 0;}
+                to{width: 472px;}
+              }
+              
+              /* cursor animations */
+              
+              @keyframes animated-cursor{
+                from{border-right-color: rgba(62, 71, 96, 0.75);}
+                to{border-right-color: transparent;}
+              }
+
+
 
 
 

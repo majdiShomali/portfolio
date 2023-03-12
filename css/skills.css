@@ -1,5 +1,5 @@
 body{
-    background: #7f95ab7d;
+    background: linear-gradient(#2c3e5083,#2c3e50);
   height: 100vh;
 }
 #logo0{
@@ -38,7 +38,7 @@ body{
 .contentdiv00{
     position: relative;
     min-height: 30rem;
-    background: linear-gradient(#607c9783,#3d52687d);
+    /* background: linear-gradient(#607c9783,#3d52687d); */
 }
 
 
