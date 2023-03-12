@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(#2c3e5083,#2c3e50);
+    background:#385f8383; 
     height: 100vh;
 }
 #logo0{
@@ -147,20 +147,23 @@ color: white;
 
     @media (min-width:100px) and (max-width:1000px){
      
-        #container000about{
+        #about-contact00{
             display: flex;
-            flex-direction: column;  
+            flex-direction: column; 
+          
         }  
 
-        #container000about div{
+        #about-contact00 div{
          margin: 1rem;
-         font-size: small;
+         font-size: medium;
+         margin: 0;
         }  
-        #container000about div a{
-            font-size: small;
+        #about-contact00 div a{
+            margin: 0;
+            font-size: medium;
            }  
-           #container000about div p{
-            font-size: small;
+           #about-contact00 div p{
+            font-size: medium;
             margin: 0;
            } 
       #cards001{

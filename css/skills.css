@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(#2c3e5083,#2c3e50);
+ background:#385f8383; 
   height: 100vh;
 }
 #logo0{
@@ -144,6 +144,11 @@ body{
 
     @media (min-width:100px) and (max-width:1000px){
      
+        #abyss{
+            flex-direction: column;
+            height: 55rem;
+            padding-bottom: 7rem;
+        }
         .container000about{
             display: flex;
             flex-direction: column;
