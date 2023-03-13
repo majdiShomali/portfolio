@@ -130,7 +130,7 @@ body{
               
               @keyframes animated-text{
                 from{width: 0;}
-                to{width: 472px;}
+                to{width: 27rem;}
               }
               
               /* cursor animations */
@@ -186,6 +186,37 @@ body{
                      
                      font-size: 1rem;
                       } 
+
+
+                      p {
+                        border-right: solid 3px rgba(0,255,0,.75);
+                        white-space: nowrap;
+                        overflow: hidden;    
+                        font-family: 'Source Code Pro', monospace;  
+                        font-size: 28px;
+                        color: rgba(255,255,255,.70);
+                      }
+                      
+                      /* Animation */
+                      p {
+                        animation: animated-text 3s steps(29,end) 0s 1 normal both,
+                                   animated-cursor 600ms steps(29,end) infinite;
+                      }
+                      
+                      /* text animation */
+                      
+                      @keyframes animated-text{
+                        from{width: 0;}
+                        to{width: 13rem;}
+                      }
+                      
+                      /* cursor animations */
+                      
+                      @keyframes animated-cursor{
+                        from{border-right-color: rgba(62, 71, 96, 0.75);}
+                        to{border-right-color: transparent;}
+                      }
+
 
 
 
