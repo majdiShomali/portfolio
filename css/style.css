@@ -109,6 +109,15 @@ body{
             border-radius: 20%;
              }   
 
+
+
+        
+
+
+
+
+
+
 /* ------------------------------------------------ */
              p {
                 border-right: solid 3px rgba(0,255,0,.75);
@@ -254,4 +263,28 @@ body{
                         
                     }
 
+            }
+
+            .home-herosocials {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                background: #464f832a;
+                box-shadow: 2px 2px 0px 1px #385878a3;
+                padding: .5rem;
+              border-radius: 10%;
+            }
+
+            .home-herosocials div {
+              margin-bottom: 5px;
+            }
+            .home-herosocial:hover {
+               border: #1abc9c solid 2px; 
+                border-radius: 50%;
+              }
+            
+            @media only screen and (max-width: 56.25em) {
+                .home-herosocials {
+                    display:none
+                }
             }
