@@ -59,6 +59,7 @@ p{
 
  .container001 a{
     text-decoration: none;
+    color: white;
     
  }  
 .container000{
@@ -136,7 +137,38 @@ color: white;
 
 
 
+.text0 button {
+    background: #385878a3;
+    box-shadow: 1px 1px 0px 1px #384551;
+    border-radius: 10px;
+    width: 7rem;
+    height: 5rem;
+    margin-left: 8rem;
 
+    
+}
+.text0 a {
+   text-decoration: none;
+   color:  #1abc9c;
+   font-size: larger;
+   animation: button00 2s ease-in-out infinite;
+   stroke: #1abc9c;
+}
+
+.text0 button:hover {
+  scale: 1.2;
+  transition-duration: 1s;
+  letter-spacing: 0.2em;
+}
+
+@keyframes button00{
+
+    0%{color:  #1abc9c;}
+    30%{color:  #25b17e;}
+    60%{color: #12486c;}
+   90%{color:  #1c0fa5;}
+
+     }
 
 
 
@@ -180,6 +212,13 @@ color: white;
         width: 250px;
         height: 150px;
       }
+
+      .text0 button {
+                   
+        margin-left: 0rem;
+        
+    }
+
 
        }
        @media (min-width:1001px){

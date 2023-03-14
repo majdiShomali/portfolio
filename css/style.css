@@ -121,7 +121,7 @@ body{
               
               /* Animation */
               p {
-                animation: animated-text 3s steps(29,end) 0s 1 normal both,
+                animation: animated-text 1s steps(29,end) 0s 1 normal both,
                            animated-cursor 600ms steps(29,end) infinite;
               }
               
@@ -139,8 +139,37 @@ body{
                 to{border-right-color: transparent;}
               }
 
+.text0 button {
+    background: #385878a3;
+    box-shadow: 1px 1px 0px 1px #384551;
+    border-radius: 10px;
+    width: 7rem;
+    height: 5rem;
+    margin-left: 8rem;
+    
+}
+.text0 a {
+   text-decoration: none;
+   color:  #1abc9c;
+   font-size: larger;
+   animation: button00 2s ease-in-out infinite;
+   stroke: #1abc9c;
+}
 
+.text0 button:hover {
+  scale: 1.2;
+  transition-duration: 1s;
+  letter-spacing: 0.2em;
+}
 
+@keyframes button00{
+
+    0%{color:  #1abc9c;}
+    30%{color:  #25b17e;}
+    60%{color: #12486c;}
+   90%{color:  #1c0fa5;}
+
+     }
 
 
              @media (min-width:950px) and (max-width:1150px){
@@ -219,6 +248,10 @@ body{
                       }
 
 
-
+                      .text0 button {
+                   
+                        margin-left: 2rem;
+                        
+                    }
 
             }
