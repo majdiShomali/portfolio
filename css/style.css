@@ -192,7 +192,7 @@ body{
                         white-space: nowrap;
                         overflow: hidden;    
                         font-family: 'Source Code Pro', monospace;  
-                        font-size: 28px;
+                        font-size: 1rem;
                         color: rgba(255,255,255,.70);
                       }
                       
@@ -206,7 +206,7 @@ body{
                       
                       @keyframes animated-text{
                         from{width: 0;}
-                        to{width: 14rem;}
+                        to{width: 15rem;}
                       }
                       
                       /* cursor animations */
