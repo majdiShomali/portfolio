@@ -164,6 +164,7 @@ body{
 
                 flex-direction: column;
                 justify-content: space-around;
+                align-items: center;
                }
             
             
@@ -171,10 +172,11 @@ body{
                     width: 10rem ;
                     border-radius: 20%;
                      }  
-                     .container01{
+                     .text0{
+                        margin-right: 2rem;
               
             }
-
+           
 
             .container00 .text0 h2{
                 text-transform: uppercase;
@@ -206,7 +208,7 @@ body{
                       
                       @keyframes animated-text{
                         from{width: 0;}
-                        to{width: 15rem;}
+                        to{width: 14rem;}
                       }
                       
                       /* cursor animations */
